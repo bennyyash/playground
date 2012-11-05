@@ -14,7 +14,8 @@ public class App {
 		Server server = new Server("bubu");
 		Monitors.registerObject(server);
 
-		System.in.read();
+		System.out.println("Hello World");
+
 	}
 
 }
